@@ -1,0 +1,20 @@
+.formcontato--esquerda {
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+.formcontato__img{
+    width:80%;
+ margin: auto;
+ display: block;
+ border-radius: 10%;
+ filter: drop-shadow(10px 7px 10px rgb(123, 65, 231));
+}
+.formcontato__img:hover{
+    
+}
+@media (max-width: 768px){
+    .formcontato--esquerda{
+        display: none;
+    }
+}

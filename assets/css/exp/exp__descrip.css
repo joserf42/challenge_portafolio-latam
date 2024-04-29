@@ -1,0 +1,24 @@
+.experience__description{
+    display: flex;
+    gap: 1rem;
+}
+.experiencia__botao--repo{
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 1s all;
+    
+    
+}
+.experiencia__botao--repo:hover{
+    background: var(--color-sec);
+    transform: scale(1.1);
+}
+.experience__botao--demo{
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 1s all;
+}
+.experience__botao--demo:hover{
+    background: var(--color-sec);
+    transform: scale(1.1);
+}

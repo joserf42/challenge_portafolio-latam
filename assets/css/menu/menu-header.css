@@ -1,0 +1,23 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu__header img {
+    
+    height: 3rem;
+    border-radius: 50%;
+    filter: drop-shadow(10px 7px 10px var(--color-primario));
+}
+.menu__title{
+    color: var(--color-cuarto);
+    font-size: 15px;
+    
+}
+
+@media (max-width: 425px) {
+    .menu__header img {
+        height: 1.2rem;
+    }
+}
