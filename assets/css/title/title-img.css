@@ -2,6 +2,13 @@
    width: 18rem;
    border-radius: 50%;
    filter: drop-shadow(10px 7px 10px var(--color-ter));
+
+   transition: all 400ms ease;
+}
+
+.title__profile:hover {
+   transform: scale(1.1);
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
