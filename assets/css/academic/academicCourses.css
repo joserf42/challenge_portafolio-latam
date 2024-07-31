@@ -11,7 +11,7 @@
 .academic__courses__item__img {
     background-color: #fff;
     padding: 2rem;
-    width: 80%;
+    width: 100%;
     position: relative;
     border-radius: 18px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 22%);
@@ -39,6 +39,7 @@
 .academic__courses__item__subtitle p {
     margin-top: 0.5rem;
     color: var(--color-cuarto);
+    font-weight: bold;
 }
 
 @media (max-width:425px) {

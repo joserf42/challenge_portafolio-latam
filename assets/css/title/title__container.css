@@ -21,6 +21,8 @@
 }
 
 @media (max-width: 768px) {
+
+
     .title__bio {
         font-size: 1.8rem;
     }
@@ -35,6 +37,8 @@
 }
 
 @media (max-width:425px) {
+
+
     .title__bio {
         font-size: 1.2rem;
     }
